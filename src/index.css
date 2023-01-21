@@ -1,0 +1,89 @@
+/* Fonts */
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('/src/assets/fonts/inconsolata/Inconsolata-Bold.woff2') format('woff2'),
+      url('/src/assets/fonts/inconsolata/Inconsolata-Bold.woff') format('woff'),
+      url('/src/assets/fonts/inconsolata/Inconsolata-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('/src/assets/fonts/inconsolata/Inconsolata-Regular.woff2') format('woff2'),
+      url('/src/assets/fonts/inconsolata/Inconsolata-Regular.woff') format('woff'),
+      url('/src/assets/fonts/inconsolata/Inconsolata-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/assets/fonts/inter/Inter-Bold.woff2') format('woff2'),
+      url('/src/assets/fonts/inter/Inter-Bold.woff') format('woff'),
+      url('/src/assets/fonts/inter/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/assets/fonts/inter/Inter-Regular.woff2') format('woff2'),
+      url('/src/assets/fonts/inter/Inter-Regular.woff') format('woff'),
+      url('/src/assets/fonts/inter/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('/src/assets/fonts/lora/Lora-Regular.woff2') format('woff2'),
+      url('/src/assets/fonts/lora/Lora-Regular.woff') format('woff'),
+      url('/src/assets/fonts/lora/Lora-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: url('/src/assets/fonts/lora/Lora-Italic.woff2') format('woff2'),
+      url('/src/assets/fonts/lora/Lora-Italic.woff') format('woff'),
+      url('/src/assets/fonts/lora/Lora-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+:root {
+  /* Colors */
+  --c-dark-1: hsl(0, 0%, 2%);
+  --c-dark-2: hsl(0, 0%, 12%);
+  --c-dark-3: hsl(0, 0%, 18%);
+  --c-dark-4: hsl(0, 0%, 23%);
+
+  --c-grey-1: hsl(0, 0%, 51%);
+  --c-grey-2: hsl(0, 0%, 91%);
+  --c-grey-3: hsl(0, 0%, 2%);
+  --c-grey-4: hsl(0, 0%, 100%);
+
+  --c-purple: hsl(274, 82%, 60%);
+
+  --c-red: hsl(0, 100%, 66%);
+}
+
+body {
+  box-sizing: border-box;
+}
