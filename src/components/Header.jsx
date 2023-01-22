@@ -10,7 +10,9 @@ const Header = () => {
 
   return (
     <header className="dictionary__header">
-      <img src={Logo} alt="Dictionary" />
+      <a href="">
+        <img src={Logo} alt="Dictionary" />
+      </a>
 
       <div>
         <div
