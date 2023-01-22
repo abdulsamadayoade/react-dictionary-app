@@ -111,7 +111,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .dictionary__header > div {
@@ -212,4 +212,40 @@ body {
 
 .dictionary__theme-toggle--icon.active div {
   transform: translateX(1.5rem);
+}
+
+/* Search */
+.dictionary__search {
+  height: 6.4rem;
+  width: 100%;
+  background-color: #F4F4F4;
+  width: 100%;
+  border-radius: 1.6rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.dictionary__search input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-weight: var(--fw-bold);
+  color: var(--c-dark-3);
+  padding: 1rem 2rem;
+  font-size: 2rem;
+}
+
+.dictionary__search input::placeholder {
+  color: var(--c-grey-1);
+}
+
+.dictionary__search img {
+  /* margin-left: 2rem; */
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
 }

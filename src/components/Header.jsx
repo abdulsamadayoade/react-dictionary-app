@@ -1,6 +1,6 @@
 import { useState } from "react";
-import logo from "../assets/images/logo.svg";
-import arrowDown from "../assets/images/icon-arrow-down.svg";
+import Logo from "../assets/images/logo.svg";
+import ArrowDown from "../assets/images/icon-arrow-down.svg";
 import OutsideClickHandler from "react-outside-click-handler";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="dictionary__header">
-      <img src={logo} alt="Dictionary" />
+      <img src={Logo} alt="Dictionary" />
 
       <div>
         <div
@@ -19,7 +19,7 @@ const Header = () => {
           role="button"
         >
           <span className="">{currentFont}</span>
-          <img src={arrowDown} alt="arrow down icon" />
+          <img src={ArrowDown} alt="arrow down icon" />
 
           <OutsideClickHandler
             onOutsideClick={() => setShowFontToggleBox(false)}
