@@ -226,6 +226,15 @@ body {
   position: relative;
 }
 
+.dictionary__search.active {
+  border: 1px solid var(--c-purple);
+}
+
+.dictionary__search form {
+  display: block;
+  width: 100%;
+}
+
 .dictionary__search input {
   height: 100%;
   width: 100%;
@@ -236,11 +245,16 @@ body {
   color: var(--c-dark-3);
   padding: 1rem 2rem;
   font-size: 2rem;
+  flex: 1;
 }
 
 .dictionary__search input::placeholder {
-  color: var(--c-grey-1);
+  color: rgba(45, 45, 45, 0.25);
 }
+
+/* .dictionary__search input:focus {
+  border: 1px solid red;
+} */
 
 .dictionary__search img {
   /* margin-left: 2rem; */
